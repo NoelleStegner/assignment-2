@@ -1,0 +1,100 @@
+*{
+  font-family: Cabin;
+text-align: center;
+
+}
+.container{
+  max-width: 100%;
+  position: absolute;
+  right: 0em;
+  left: 0em;
+
+
+}
+.page-header{
+  max-width: 100%;
+  float:left;
+}
+header img{
+
+  max-width: 80%;
+}
+
+h1{
+text-align: left;
+}
+h2{
+text-align: left;
+  font-size: 1.5em;
+}
+nav{
+margin-top: 2em;
+  float: right;
+}
+.main-menu ul{
+  list-style-type: none;
+  padding: 0.5em;
+  border: solid 2px #ccc;
+  position: absolute;
+  right: 0em;
+  background-color: white;
+  width:200px;
+}
+.main-menu li{
+  height:36px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  border-bottom: solid 2px #ccc;
+  text-align: center;
+
+
+}
+a:link {
+  color: black;
+
+}
+a:hover{
+  color: grey;
+}
+.fluid-image{
+margin-top: .25em;
+  margin-bottom: .25em;
+  width: 100%;
+
+
+}
+
+/*Desktop styles*/
+@media(min-width: 768px){
+header {
+  width: 30%;
+}
+nav{
+width: 30%;
+}
+.menu-button {
+  display: none;
+}
+  .main-menu ul{
+    display: block;
+    border: none;
+    position: static;
+    width:100%;
+    text-align: right;
+
+  }
+  .main-menu li{
+    height:36px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-bottom: none;
+    padding-left: 0px;
+    display: inline-block;
+    margin-left: 1em;
+    text-align: center;
+
+  }
+
+
+
+}
